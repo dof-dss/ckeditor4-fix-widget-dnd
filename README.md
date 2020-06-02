@@ -9,3 +9,8 @@ To re-create this build:
 * Copy build-config.js from this repo to ./dev/builder/
 * Run ./dev/builder/build.sh -s
 * This will create a Drupal optimised version of ckeditor in /dev/builder/releases that can replace Drupal 8's core/assets/vendor/ckeditor.
+
+# Using the pre-build image
+
+* Copy the contents of `build/ckeditor` to replace Drupal 8's `core/assets/vendor/ckeditor` directory.
+* Clear caches.
